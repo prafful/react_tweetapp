@@ -13,7 +13,11 @@ function TweetAction(props) {
     }
 
     return ( 
-        <div>
+        <div style={{
+          border:"1px solid brown"  ,
+          margin:"5px",
+          padding:"5px"
+        }}>
           <TweetLikes likes={props.likes}></TweetLikes>
           <TweetDisLikes dislikes={props.dislikes}></TweetDisLikes>
           <br />

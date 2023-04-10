@@ -5,7 +5,11 @@ function TweetAuthor(props) {
     let author = props.author
 
     return ( 
-        <div>
+        <div style={{
+                    border:"1px solid brown"  ,
+                    margin:"5px",
+                    padding:"5px"
+        }}>
             by {author}
         </div>
      );

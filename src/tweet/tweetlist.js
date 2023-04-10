@@ -3,8 +3,15 @@ import Tweet from './tweet';
 
 function TweetList() {
     return (
-        <div>
-            <h3>List of tweet components will come here!</h3>
+        <div style={{
+            border:"1px solid green",
+            width:"500px"
+            }}>
+            <h3 style={{
+                        textAlign: "center"
+            }}>
+                List of tweet components will come here!
+            </h3>
             <Tweet blow="I am working on Chat GPT API."
                 likes="8"
                 dislikes="1"
