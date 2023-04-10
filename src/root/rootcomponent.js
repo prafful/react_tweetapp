@@ -1,6 +1,7 @@
 import React from 'react';
 import Logo from '../tweet/logo/logo';
 import TweetList from '../tweet/tweetlist';
+import ConsumeAPI from '../api/api';
 
 function RootComponent() {
     return ( 
@@ -11,6 +12,7 @@ function RootComponent() {
                   alignItems:"center" }}>
         <Logo></Logo>
         <TweetList></TweetList>
+     <ConsumeAPI></ConsumeAPI>
       </div>
      );
 }
